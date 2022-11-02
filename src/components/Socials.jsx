@@ -3,11 +3,11 @@ import React from "react";
 function Socials() {
   return (
     <div className="socials">
-      <a className="social_icon" href="https://github.com/PrincessKhay">
-        <img src="images/slack.png" alt="slack icon" />
+      <a className="social_icon" href="#">
+        <img src="images/slack.svg" alt="slack icon" />
       </a>
       <a className="social_icon" href="https://github.com/PrincessKhay">
-        <img src="images/github.png" alt="github icon" />
+        <img src="images/github.svg" alt="github icon" />
       </a>
     </div>
   );

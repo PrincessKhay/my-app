@@ -19,7 +19,7 @@ function Links() {
         Pitch a Service for Coders
       </a>
       <a id="book__design" href="https://books.zuri.team/design-rules">
-        Design Rules Books
+        Design Rules Book
       </a>
     </div>
   );
