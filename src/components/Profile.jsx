@@ -6,7 +6,7 @@ function Profile() {
   return (
     <div className="profile">
       <div className="img_div">
-        <img id="profile_img" src="images/profile__img.png" alt="profile " />
+        <img id="profile_img" src="images/profile__img.svg" alt="profile " />
         <div className="overlay">
           <FontAwesomeIcon className="icon" icon={faCamera} size="xl" inverse />
         </div>
@@ -17,7 +17,7 @@ function Profile() {
       {/* <p id="slack">PrincessKhay</p> */}
       <div className="arrow_img">
         <button>
-          <img src="images/arrow.png" alt="" />
+          <img src="images/arrow2.svg" alt="" />
         </button>
       </div>
     </div>
