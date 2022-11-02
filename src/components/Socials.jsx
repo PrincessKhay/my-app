@@ -3,7 +3,7 @@ import React from "react";
 function Socials() {
   return (
     <div className="socials">
-      <a className="social_icon" href="#">
+      <a className="social_icon" href="https://github.com/PrincessKhay">
         <img src="images/slack.svg" alt="slack icon" />
       </a>
       <a className="social_icon" href="https://github.com/PrincessKhay">
