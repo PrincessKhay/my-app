@@ -1,0 +1,157 @@
+.container {
+    width: 720px;
+    margin: 8% auto;
+}
+  
+.container h1 {
+    font-size: 36px;
+    color: #101828;
+}
+  
+.container p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #475467;
+    margin-bottom: 8%;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+}
+  
+.three_inputs,
+textarea {
+    width: 100%;
+    margin-top: 1%;
+    padding: 12px 14px;
+    background-color: white;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    outline: none;
+    box-sizing: border-box;
+}
+  
+.three_inputs::placeholder,
+textarea::placeholder {
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+  
+input:focus {
+    border: 1px solid #84caff;
+}
+  
+textarea:focus {
+    border: 1px solid #84caff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
+  
+.input_div {
+    margin-bottom: 30px;
+}
+  
+.name_div {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.name_div div {
+    flex-basis: 48%;
+}
+  
+.checkbox_div {
+    display: flex;
+    align-items: center;
+}
+  
+.checkbox_div label {
+    color: #475467;
+}
+  
+input[type="checkbox"] + label {
+    display: flex;
+    margin: 0.1em;
+}
+  
+input[type="checkbox"] {
+    cursor: pointer;
+    appearance: none;
+    height: 2em;
+    width: 2em;
+    background-color: white;
+    border: 1px solid #1570ef;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+  
+input[type="checkbox"]::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 1.4em;
+    color: #1570ef;
+    display: none;
+    transition: 0.2s ease;
+}
+  
+input[type="checkbox"]:active::after {
+    transform: scale(0);
+}
+  
+input[type="checkbox"]:checked::after {
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1570ef;
+}
+
+input[type="checkbox"]:focus::after {
+    height: 1em;
+    /* width: 2em; */
+    border: 1px solid #84caff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 4px #d1e9ff;
+}
+  
+#btn__submit {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #1570ef;
+    border: 1px solid #1570ef;
+    border-radius: 8px;
+    padding: 12px 20px;
+    height: 48px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    cursor: pointer;
+}
+  
+#btn__submit:hover {
+    background-color: #175cd3;
+}
+  
+#btn__submit:active {
+    background-color: #1570ef;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
+  
+#btn__submit:disabled {
+    background-color: #b2ddff;
+    border: 1px solid #b2ddff;
+}

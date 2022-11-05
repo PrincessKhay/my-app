@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/Contact.css";
 import { useNavigate } from "react-router-dom";
 
 function Contact() {

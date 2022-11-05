@@ -1,0 +1,9 @@
+.socials {
+    margin: 2% 6%;
+    display: flex;
+    justify-content: center;
+}
+  
+.social_icon {
+    margin: 0 1%;
+}

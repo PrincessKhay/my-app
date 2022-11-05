@@ -1,0 +1,23 @@
+.links {
+    margin: 2% 6%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.links a {
+    margin: 1% 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 2%;
+    border: 1px solid #eaecf0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #101828;
+    background-color: #eaecf0;
+    text-align: center;
+}
+  
+.links a:hover {
+    background-color: rgb(203, 206, 211, 0.6);
+}
