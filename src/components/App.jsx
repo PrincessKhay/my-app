@@ -1,17 +1,18 @@
 import React from "react";
-import Profile from "./Profile";
-import Links from "./Links";
-import Socials from "./Socials";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 function App() {
   return (
-    <div>
-      <Profile />
-      <Links />
-      <Socials />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

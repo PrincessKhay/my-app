@@ -1,4 +1,5 @@
 import React from "react";
+// import Contact from "./Contact"
 
 function Links() {
   return (
@@ -20,6 +21,9 @@ function Links() {
       </a>
       <a id="book__design" href="https://books.zuri.team/design-rules">
         Design Rules Book
+      </a>
+      <a id="contact" href="/contact">
+        Contact Me
       </a>
     </div>
   );
