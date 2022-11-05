@@ -155,3 +155,44 @@ input[type="checkbox"]:focus::after {
     background-color: #b2ddff;
     border: 1px solid #b2ddff;
 }
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 740px) {
+    .container {
+      width: 90%;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    .checkbox_div label {
+      font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    input[type="checkbox"] {
+      height: 2em;
+      width: 2.2em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+      margin: 18% auto;
+    }
+
+    .name_div {
+      flex-direction: column;
+    }
+
+    input[type="checkbox"] {
+      width: 2.8em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    input[type="checkbox"] {
+      width: 3em;
+    }
+}
+  

@@ -58,4 +58,26 @@
  background-color: white;
  cursor: pointer;
 }
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 990px) {
+    .arrow_img {
+      right: 60px;
+      top: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .arrow_img {
+      right: 20px;
+      top: 2px;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    .arrow_img {
+      right: 6px;
+      top: -2px;
+    }
+}
   
